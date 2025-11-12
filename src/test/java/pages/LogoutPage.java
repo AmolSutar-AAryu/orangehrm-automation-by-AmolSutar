@@ -18,8 +18,6 @@ public class LogoutPage {
     public LogoutPage(WebDriver webDriver) {
         this.webDriver = webDriver;
         this.webDriverWait = new WebDriverWait(webDriver, Duration.ofSeconds(5));
-
-
     }
 
     public void logOut(){
